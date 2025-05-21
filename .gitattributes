@@ -1,1 +1,2 @@
+*.pt filter=lfs diff=lfs merge=lfs -text
 Backend-python/yolov8x.pt filter=lfs diff=lfs merge=lfs -text
