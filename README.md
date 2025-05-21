@@ -48,19 +48,14 @@
 
 - **Computer Vision & ML**  
   - PyTorch, YOLOv8 for detection  
-  - MediaPipe for pose estimation  
-  - Custom CNNs for posture classification
+  - MediaPipe for pose estimation 
 
 - **Frontend (Flutter)**  
   - Dart, Material UI widgets, animations  
   - Responsive layouts for Android & iOS
 
-- **Visualization & Dashboard**  
-  - React + Tailwind CSS (web)  
-  - Chart.js / Recharts for graphs
-
 - **Development Environments**  
-  - VS Code, PyCharm, Android Studio, Xcode
+  - PyCharm, Android Studio
 
 ---
 
@@ -80,3 +75,37 @@ Camera Input
 [Session Recording + Overlay]
     ↓
 [Analytics & Dashboard]
+
+```text
+
+AI-Powered-Cricket-Coaching/
+│
+├── Backend-python/        # Flask API, AI models, DB interface
+│   ├── app/
+│   ├── models/
+│   ├── utils/
+│   └── database/
+│
+├── Frontend-flutter/      # Flutter mobile app (UI, services, assets)
+│   ├── lib/
+│   ├── assets/
+│   └── pubspec.yaml
+│
+├── images/                # Documentation screenshots
+├── App-Images/            # Live session overlays
+├── posters/               # FYP poster (PDF + thumbnail)
+├── pitch/                 # Presentation slides
+└── README.md              # Project overview and instructions
+
+
+👤 Author & Supervision
+Developed By:
+Mubashar Ali (21-ARID-4482)
+LinkedIn
+
+Supervised By:
+Dr. Hassan Nazeer
+LinkedIn
+
+📄 FYP Poster
+👉 Download FYP Poster (PDF)
