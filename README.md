@@ -3,6 +3,8 @@
 **A next-generation cricket coaching platform that leverages computer vision and deep learning to provide real-time posture tracking, gesture recognition, angle analysis, and in-depth performance analytics — all with instant feedback to elevate players’ skills.**
 
 ---
+ 
+![Gesture Overlay](images/Poster.png)
 
 ## 🚀 Key Features
 
