@@ -1,97 +1,82 @@
-# AI-Powered Gesture-Based Cricket Coaching System
+# 🏏 AI-Powered Gesture-Based Cricket Coaching System
 
-**A next-generation cricket coaching platform that leverages computer vision and deep learning to provide real-time posture tracking, gesture recognition, angle analysis, and in-depth performance analytics — all with instant feedback to elevate players’ skills.**
+**A next-generation cricket coaching platform by Mubashar Ali that leverages computer vision and deep learning to provide real-time posture tracking, gesture recognition, angle analysis, and in-depth performance analytics — all with instant feedback to elevate players’ skills.**
 
 ---
- 
-![Gesture Overlay](images/Poster.png)
+
+![Poster Preview](images/Poster.png)
+
+---
 
 ## 🚀 Key Features
 
-- **Real-time Gesture Recognition**  
-  Detects batting and bowling postures using advanced deep-learning models (e.g., YOLOv8, MediaPipe) to identify key gestures and movements on the fly.
+- **🎯 Real-time Gesture Recognition**  
+  Detect batting and bowling postures with YOLOv8 and MediaPipe for instant gesture identification.
 
-- **Angle Calculation & Biomechanical Analysis**  
-  Computes joint and bat-angle metrics (e.g., elbow flexion, shoulder alignment) to ensure optimal technique and prevent injury.
+- **📐 Angle & Biomechanical Analysis**  
+  Compute key joint and bat-swing angles (elbow, shoulder alignment) to optimize technique and reduce injury risk.
 
-- **Instant Feedback & Coaching Tips**  
-  Provides visual and textual feedback during practice sessions, highlighting posture deviations and suggesting corrective drills.
+- **⚡ Instant Feedback Engine**  
+  Visual and textual cues during practice sessions highlight posture deviations and suggest corrective drills.
 
-- **Session Recording & Review**  
-  Records every training session in high-resolution video, annotated with overlayed skeletons and key performance metrics for post-practice analysis.
+- **🎥 Session Recording & Annotated Review**  
+  High-resolution video capture with overlaid skeletons and performance metrics for post-session analysis.
 
-- **Comprehensive Performance Dashboard**  
-  Aggregates session data into graphs and tables to track progress over time, compare against benchmarks, and set personalized goals.
+- **📊 Performance Dashboard**  
+  Interactive charts and tables to track progress over time, benchmark against goals, and export reports.
 
 ---
 
 ## 🎯 Main Objectives
 
 1. **Enhance Coaching Efficiency**  
-   Automate posture and gesture analysis so coaches can focus on personalized training strategies rather than manual video review.
+   Automate posture and gesture analysis so coaches can focus on strategy rather than manual review.
 
 2. **Improve Player Technique**  
-   Use quantitative angle measurements and biomechanical comparisons to fine-tune batting and bowling form.
+   Use quantitative angle metrics and biomechanical comparisons to refine batting and bowling form.
 
 3. **Data-Driven Progress Tracking**  
-   Enable both coaches and players to visualize improvements and identify areas needing attention through detailed analytics.
+   Empower coaches and players to visualize skill development and pinpoint areas for improvement.
 
 ---
 
 ## 🛠️ Tech Stack & Tools
 
-- **Backend & Data**:  
-  - Python 3.10, OpenCV, NumPy  
-  - SQL Server for session metadata and analytics storage
+- **Backend & Data**  
+  - Python 3.10, Flask, OpenCV, NumPy  
+  - SQL Server for session metadata and analytics
 
-- **Computer Vision & ML**:  
-  - PyTorch, YOLOv8 for object/gesture detection  
-  - MediaPipe for skeletal tracking  
-  - Custom CNNs for fine-grained posture classification
+- **Computer Vision & ML**  
+  - PyTorch, YOLOv8 for detection  
+  - MediaPipe for pose estimation  
+  - Custom CNNs for posture classification
 
-- **Frontend & Visualization**:  
-  - React (with Tailwind CSS) for interactive dashboards  
-  - Chart.js / Recharts for performance graphs
+- **Frontend (Flutter)**  
+  - Dart, Material UI widgets, animations  
+  - Responsive layouts for Android & iOS
 
-- **Development Environments**:  
+- **Visualization & Dashboard**  
+  - React + Tailwind CSS (web)  
+  - Chart.js / Recharts for graphs
+
+- **Development Environments**  
   - VS Code, PyCharm, Android Studio, Xcode
 
 ---
 
 ## 🏗️ System Architecture
 
-1. **Data Ingestion**  
-   - High-fps camera input → frame extraction  
-   - Preprocessing (normalization, cropping)
-
-2. **Gesture & Pose Estimation**  
-   - YOLOv8 detection → bounding boxes  
-   - MediaPipe skeleton overlay → key-point extraction
-
-3. **Angle Computation**  
-   - Vector math on joint coordinates → angle metrics
-
-4. **Feedback Engine**  
-   - Rule-based and ML-driven recommendations  
-   - Overlay highlights on video frames
-
-5. **Analytics & Dashboard**  
-   - SQL queries → metrics aggregation  
-   - Frontend visualizations & reports
-
----
-
-## 👥 Team & Supervision
-
-- **Developed By:**  
-  - Mubashar Ali (21-ARID-4482)
-  - https://www.linkedin.com/in/mub-ali/
-    
-
-- **Supervised By:**  
-  Dr. Hassan Nazeer
-  https://www.linkedin.com/in/hassan-nazeer-chaudhry-532661134/
-  
-
----
-
+```text
+Camera Input
+    ↓
+[Preprocessing]
+    ↓
+[YOLOv8 & MediaPipe] → Keypoint Extraction
+    ↓
+[Angle Computation]
+    ↓
+[Feedback Engine]
+    ↓
+[Session Recording + Overlay]
+    ↓
+[Analytics & Dashboard]
