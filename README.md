@@ -61,7 +61,7 @@
 
 ## 🏗️ System Architecture
 
-```text
+
 Camera Input
     ↓
 [Preprocessing]
@@ -76,7 +76,7 @@ Camera Input
     ↓
 [Analytics & Dashboard]
 
-```text
+
 
 AI-Powered-Cricket-Coaching/
 │
@@ -98,14 +98,13 @@ AI-Powered-Cricket-Coaching/
 └── README.md              # Project overview and instructions
 
 
+
 👤 Author & Supervision
 Developed By:
-Mubashar Ali (21-ARID-4482)
-LinkedIn
+Mubashar Ali 
+LinkedIn(https://www.linkedin.com/in/mub-ali/)
 
 Supervised By:
 Dr. Hassan Nazeer
-LinkedIn
+LinkedIn(https://www.linkedin.com/in/hassan-nazeer-chaudhry-532661134/)
 
-📄 FYP Poster
-👉 Download FYP Poster (PDF)
