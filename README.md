@@ -82,15 +82,14 @@
 ## 👥 Team & Supervision
 
 - **Developed By:**  
-  - Mubashar Ali (21-ARID-4482)  
-  - M. Aneeq (21-ARID-4499)  
-  - Awais Ahmad (21-ARID-4415)  
-  - Talal Waheed (21-ARID-4611)
+  - Mubashar Ali (21-ARID-4482)
+  - https://www.linkedin.com/in/mub-ali/
+    
 
 - **Supervised By:**  
   Dr. Hassan Nazeer
+  https://www.linkedin.com/in/hassan-nazeer-chaudhry-532661134/
+  
 
 ---
-
-## 📂 Repository Structure
 
