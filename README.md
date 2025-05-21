@@ -59,43 +59,6 @@
 
 ---
 
-## 🏗️ System Architecture
-
-
-Camera Input
-    ↓
-[Preprocessing]
-    ↓
-[YOLOv8 & MediaPipe] → Keypoint Extraction
-    ↓
-[Angle Computation]
-    ↓
-[Feedback Engine]
-    ↓
-[Session Recording + Overlay]
-    ↓
-[Analytics & Dashboard]
-
-
-
-AI-Powered-Cricket-Coaching/
-│
-├── Backend-python/        # Flask API, AI models, DB interface
-│   ├── app/
-│   ├── models/
-│   ├── utils/
-│   └── database/
-│
-├── Frontend-flutter/      # Flutter mobile app (UI, services, assets)
-│   ├── lib/
-│   ├── assets/
-│   └── pubspec.yaml
-│
-├── images/                # Documentation screenshots
-├── App-Images/            # Live session overlays
-├── posters/               # FYP poster (PDF + thumbnail)
-├── pitch/                 # Presentation slides
-└── README.md              # Project overview and instructions
 
 
 
